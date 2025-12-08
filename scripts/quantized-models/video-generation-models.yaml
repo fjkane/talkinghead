@@ -14,5 +14,8 @@ models:
   - repo: "Kijai/WanVideo_comfy"
     files: "Wan2_1_VAE_bf16.safetensors"
     target_dir: "/workspace/runpod-slim/ComfyUI/models/vae"
+  - repo: "Kijai/WanVideo_comfy"
+    files: "Lightx2v/lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors"
+    target_dir: "/workspace/runpod-slim/ComfyUI/models/loras"
 
 
