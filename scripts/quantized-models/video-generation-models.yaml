@@ -8,7 +8,7 @@ models:
   - repo: "Kijai/WanVideo_comfy"
     files: "umt5-xxl-enc-fp8_e4m3fn.safetensors"
     target_dir: "/workspace/runpod-slim/ComfyUI/models/text_encoders"
-  - repo: "Kijai/WanVideo_comfy"
+  - repo: "Comfy-Org/Wan_2.1_ComfyUI_repackaged"
     files: "split_files/clip_vision/clip_vision_h.safetensors"
     target_dir: "/workspace/runpod-slim/ComfyUI/models/clip_vision"
   - repo: "Kijai/WanVideo_comfy"
