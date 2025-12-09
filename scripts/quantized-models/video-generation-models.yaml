@@ -20,6 +20,9 @@ models:
   - repo: "MeiGen-AI/InfiniteTalk"
     files: "comfyui/infinitetalk_*"
     target_dir: "/workspace/runpod-slim/ComfyUI/models/diffusion_models"
+  - repo: "Kijai/MelBandRoFormer_comfy"
+    files: "MelBandRoformer*"
+    target_dir: "/workspace/runpod-slim/ComfyUI/models/diffusion_models"
 
 
 
