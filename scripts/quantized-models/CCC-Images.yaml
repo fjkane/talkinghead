@@ -1,0 +1,13 @@
+models:
+  - repo: "QuantStack/Qwen-Image-Edit-2509-GGUF"
+    files: "Qwen-Image-Edit-2509-Q5_0.gguf"
+    target_dir: "/workspace/runpod-slim/ComfyUI/models/unet/gguf"
+  - repo: "lightx2v/Qwen-Image-Lightning"
+    files: "Qwen-Image-Lightning-4steps-V1.0-bf16.safetensors"
+    target_dir: "/workspace/runpod-slim/ComfyUI/models/lora"
+  - repo: "Comfy-Org/Qwen-Image_ComfyUI"
+    files: "split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
+    target_dir: "/workspace/runpod-slim/ComfyUI/models/clip/qwen"
+  - repo: "Comfy-Org/Qwen-Image_ComfyUI"
+    files: "split_files/vae/qwen_image_vae.safetensors"
+    target_dir: "/workspace/runpod-slim/ComfyUI/models/vae"
